@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Playwrite CU", cursive;
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.moneyText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 18px;
+  width: 100%;
+}
+
+.moneyImg {
+  width: 300px;
+  height: 300px;
+  transition: all 0.5s ease;
+}
+
+.btnRandomize {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: 0px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  font-family: "Playwrite CU", cursive;
+}
+
+.btnRandomize:hover {
+  background-color: #0f0c29;
+  color: white;
+}
+
+
